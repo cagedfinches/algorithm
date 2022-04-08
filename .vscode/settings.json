@@ -1,3 +1,4 @@
 {
-    "MarkdownPaste.silence": true
+    "MarkdownPaste.silence": true,
+    "pasteImage.path": "${currentFileDir}/images"
 }
