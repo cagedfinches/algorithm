@@ -6,7 +6,7 @@ public class Myqueue {//circular queue
     int tail;
     //int size;
     public Myqueue(int cap){
-        array = new int[cap];
+        array = new int[cap + 1];
     }
     public boolean isFull(){
         return (tail + 1) % array.length == head;
