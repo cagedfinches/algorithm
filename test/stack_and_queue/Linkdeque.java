@@ -57,7 +57,7 @@ public class Linkdeque {
         tail.next = null;
         curr.pre = null;
         size --;
-        return tail.val;
+        return curr.val;
     }
     public int peekFirst(){
         if (isEmpty()){
