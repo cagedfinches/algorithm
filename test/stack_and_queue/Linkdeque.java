@@ -51,6 +51,7 @@ public class Linkdeque {
     public int pollLast(){
         if (isEmpty()){
             throw new RuntimeException("this deque is empty");
+            //return null;
         }
         ListNode curr = tail;
         tail = tail.pre;
