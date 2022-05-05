@@ -2,7 +2,7 @@ package leetcode.test.tree;
 
 public class TreeNode {
     //public TreeNode left;
-    int val;
+    public int val;
     public TreeNode left;
     public TreeNode right;
     TreeNode() {}
